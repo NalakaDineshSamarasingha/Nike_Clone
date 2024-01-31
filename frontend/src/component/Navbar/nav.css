@@ -1,0 +1,64 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px;
+    height: 20vh;
+    height: 20dvh;
+    background-color: #fde1ff;
+}
+.nav-logo img{
+    width: 80px;
+    cursor: pointer;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.nav-menu li{
+    list-style: none;
+    cursor: pointer;
+}
+.login-cart{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    cursor: pointer;
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: 	#275f96;
+    color: white;
+    cursor: pointer;
+}
+.btn:active{
+    background-color: rgba(39,95,150, 0.9);
+}
+span{
+    font-size: 30px;
+    cursor: pointer;
+}
+.count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -7px;
+    margin-left: -26px;
+    border-radius: 11px;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    z-index: 1;
+}
+.active{
+    border-bottom: 3px solid #275f96;
+    padding-bottom: 4px;
+}
+.Link{
+    color: black;
+}

@@ -1,0 +1,23 @@
+.slider{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 20px;
+    width: 90%;
+    align-items: center;
+    max-width: 250px;
+    height: 100dvh;
+    height: 100vh;
+    border-right: 1px solid #c5c5c5;
+    box-shadow: 0 1px 3px -2px #000;
+}
+.slider-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background: #f6f6f6;
+
+}

@@ -1,0 +1,31 @@
+.right img{
+    width: 400px;
+    rotate: -20deg;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    height: 80vh;
+    height: 80dvh;
+    overflow: hidden;
+    align-items: center;
+    background: linear-gradient(180deg,#fde1ff,#e1ffea22 90%);
+}
+.header01{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.header02{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.left button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}

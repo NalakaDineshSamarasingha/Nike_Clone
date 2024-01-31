@@ -1,0 +1,17 @@
+.item{
+    width: fit-content;
+    cursor: pointer;
+}
+.item p{
+    margin: 6px 0;
+}
+.item-prices{
+    display: flex;
+}
+.item img{
+    width: 250px;
+}
+.item:hover{
+    scale: 1.02;
+    transition: 0.3s ease-in-out ;
+}
