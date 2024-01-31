@@ -1,9 +1,7 @@
 import React, { useContext } from "react";
 import './nav.css';
-
 import logo from '../assest/logo2.png';
 import { Link } from "react-router-dom";
-import CartItem from "../CartItems/cartitem";
 import { ShopContext } from "../../content/shopcontent";
 
 const Navbar = () => {
@@ -15,7 +13,7 @@ const Navbar = () => {
     return (
         <div className="navbar">
            <div className="nav-logo">
-                <img src={logo} alt="" />
+                <img src={logo} alt="navbar icon" />
            </div> 
            <ul className="nav-menu">
                 <li className={menu==="shop"?"active":""} onClick={()=>{setMenu("shop")}}><Link className="Link" style={{textDecoration:'none'}} to='/'>Shop</Link></li>

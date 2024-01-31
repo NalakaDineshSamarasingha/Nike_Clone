@@ -10,7 +10,7 @@ const Header = () => {
                 <button>Buy Now&#128095;</button>
             </div>
             <div className="right">
-                <img src={header_img} alt="Header Image"/>
+                <img src={header_img} alt="Header Image eka"/>
             </div>
         </div>
     )

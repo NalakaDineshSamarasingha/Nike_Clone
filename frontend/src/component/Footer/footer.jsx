@@ -10,7 +10,7 @@ const Footer = () => {
     return(
         <div className="footer">
             <div className="footer-logo">
-                <img src={footer_image} alt="" />
+                <img src={footer_image} alt="footer image eka" />
                 <p>NIKE</p>
             </div>
             <ul className="footer-links">
@@ -22,16 +22,16 @@ const Footer = () => {
             </ul>
             <div className="social-link">
                 <div className="social-logo">
-                    <img src={intergram}/>
+                    <img src={intergram} alt="instergram logo"/>
                 </div>
                 <div className="social-logo">
-                    <img src={facebook}/>
+                    <img src={facebook} alt="facebook logo"/>
                 </div>
                 <div className="social-logo">
-                    <img src={twitter}/>
+                    <img src={twitter} alt="twitter logo"/>
                 </div>
                 <div className="social-logo">
-                    <img src={pinterest}/>
+                    <img src={pinterest} alt="Pinterest logo"/>
                 </div>
             </div>
             <div className="footer-copyright">
