@@ -20,7 +20,7 @@ const CartItem = () => {
                 if(cartItem[e.id]>0){
                     return <div>
                                 <div className="cartitems-format cartitems-format-main">
-                                    <img src={e.image} alt="" className="carticon"/>
+                                    <img src={e.image} alt="aio mokakda dnne na" className="carticon"/>
                                     <p>{e.name}</p>
                                     <p>${e.price}</p>
                                     <button className="cartitems-quantity">{cartItem[e.id]}</button>

@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <div className="navbar">
            <div className="nav-logo">
-                <img src={logo} alt="navbar icon" />
+                <img src={logo} alt="navbar econ eka" />
            </div> 
            <ul className="nav-menu">
                 <li className={menu==="shop"?"active":""} onClick={()=>{setMenu("shop")}}><Link className="Link" style={{textDecoration:'none'}} to='/'>Shop</Link></li>
