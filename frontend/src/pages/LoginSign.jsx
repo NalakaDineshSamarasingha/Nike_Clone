@@ -16,7 +16,7 @@ const LoginSign = () => {
 
     const login = async ()=>{
         let responseDate;
-        await fetch('http://localhost:4000/login',{
+        await fetch('https://nike-clone-app.onrender.com/login',{
             method:'POST',
             headers:{
                 Accept:'application/form-data',
@@ -34,7 +34,7 @@ const LoginSign = () => {
     }
     const signup = async ()=>{
         let responseDate;
-        await fetch('http://localhost:4000/signup',{
+        await fetch('https://nike-clone-app.onrender.com/signup',{
             method:'POST',
             headers:{
                 Accept:'application/form-data',

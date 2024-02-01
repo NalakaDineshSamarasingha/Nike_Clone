@@ -36,7 +36,7 @@ app.use('/image',express.static('upload/image'))
 app.post('/upload',upload.single('product'),(req,res)=>{
     res.json({
         success:1,
-        image_url: `http://localhost:${port}/image/${req.file.filename}`
+        image_url: `https://nike-clone-app.onrender.com/image/${req.file.filename}`
     })
 })
 
@@ -278,7 +278,7 @@ app.post('/getcart',fetchuser,async (req,res)=>{
 
 app.listen(port,(err)=>{
     if(!err){
-        console.log(`Server run on port ${port}`)
+        console.log(`Server run on port ${port} with modify`)
     }else{
         console.log(err)
     }
