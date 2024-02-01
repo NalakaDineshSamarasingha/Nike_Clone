@@ -26,7 +26,7 @@ const AddProduct = ()=>{
         formData.append('product', image);
     
         try {
-            const resp = await fetch('http://localhost:4000/upload', {
+            const resp = await fetch('https://nike-clone-app.onrender.com/upload', {
                 method: 'POST',
                 headers: {
                     Accept: 'application/json',
@@ -39,7 +39,7 @@ const AddProduct = ()=>{
     
             if (responseData.success) {
                 product.image = responseData.image_url;
-                await fetch('http://localhost:4000/addproduct',{
+                await fetch('https://nike-clone-app.onrender.com/addproduct',{
                     method:'POST',
                     headers:{
                         Accept:'application/json',

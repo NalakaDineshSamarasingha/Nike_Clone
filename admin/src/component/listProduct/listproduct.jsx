@@ -6,7 +6,7 @@ const ListProduct = ()=>{
     const [allproducts,setAllproducts] = useState([]);
 
     const fetchInfo = async ()=>{
-        await fetch('http://localhost:4000/allproduct')
+        await fetch('https://nike-clone-app.onrender.com/allproduct')
         .then((res)=>res.json())
         .then((data)=>{setAllproducts(data)});
     }
@@ -16,7 +16,7 @@ const ListProduct = ()=>{
     },[])
 
     const removeProduct = async (id)=>{
-        await fetch('http://localhost:4000/removeproduct',{
+        await fetch('https://nike-clone-app.onrender.com/removeproduct',{
             method:"POST",
             headers:{
                 Accept:'application/json',
