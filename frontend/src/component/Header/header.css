@@ -29,3 +29,32 @@
     background-color: red;
     cursor: pointer;
 }
+@media only screen and (max-width: 800px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        padding-top: 8%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .header01{
+        font-size: 20px;
+    }
+    .header02{
+        font-size: 30px;
+    }
+    .right img{
+        width: 250px;
+    }
+    .main{
+        gap: 20%;
+    }
+    .left{
+        gap: 20px;
+    }
+    .left button{
+        margin-top: 10px;
+    }
+}
