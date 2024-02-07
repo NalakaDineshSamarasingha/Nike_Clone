@@ -25,3 +25,16 @@
     background-color: #252525;
     border-radius: 10px;
 }
+@media only screen and (max-width: 400px){
+    .new-collection .popular-item{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .new-collection h1{
+        font-size: 25px;
+    }
+    .new-collection hr{
+        width: 150px;
+    }
+}

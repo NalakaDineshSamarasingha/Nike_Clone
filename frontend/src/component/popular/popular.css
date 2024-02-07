@@ -24,3 +24,22 @@
     background-color: #252525;
     border-radius: 10px;
 }
+@media only screen and (max-width: 400px){
+    .popular-item{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .popular{
+        justify-content: baseline;
+        align-items: center;
+        height: fit-content;
+        margin-bottom: 50px;
+    }
+    .popular h1{
+        font-size: 25px;
+    }
+    .popular hr{
+        width: 150px;
+    }
+}
