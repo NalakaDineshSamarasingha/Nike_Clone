@@ -25,7 +25,7 @@
     background-color: #252525;
     border-radius: 10px;
 }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 600px){
     .new-collection .popular-item{
         display: grid;
         grid-template-columns: 1fr 1fr;
