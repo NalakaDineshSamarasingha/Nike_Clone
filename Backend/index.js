@@ -17,6 +17,8 @@ app.use(cors())
 //database connection 
 mongoose.connect("mongodb+srv://nalakadinesh12:dinesh532@cluster0.cm5mmzw.mongodb.net/nike")
 
+var base_url = "https://raw.githubusercontent.com/NalakaDineshSamarasingha/Nike_Clone/main/Backend/upload/image/";
+
 // Api creation
 app.get("/",(req,res)=>{
     res.send("Done and Dusted")
@@ -36,7 +38,7 @@ app.use('/image',express.static('upload/image'))
 app.post('/upload',upload.single('product'),(req,res)=>{
     res.json({
         success:1,
-        image_url: `https://nike-clone-app.onrender.com/image/${req.file.filename}`
+        image_url: `${base_url}/${req.file.filename}`
     })
 })
 
