@@ -17,7 +17,7 @@ app.use(cors())
 //database connection 
 mongoose.connect("mongodb+srv://nalakadinesh12:dinesh532@cluster0.cm5mmzw.mongodb.net/nike")
 
-var base_url = "https://raw.githubusercontent.com/NalakaDineshSamarasingha/Nike_Clone/main/Backend/upload/image/";
+var base_url = "https://raw.githubusercontent.com/NalakaDineshSamarasingha/Nike_Clone/main/Backend/upload/image";
 
 // Api creation
 app.get("/",(req,res)=>{
